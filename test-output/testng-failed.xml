@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.naveenautomations.Utils.CustomListener"/>
+    <listener class-name="com.naveenautomation.RetryLogic.TransformerForRetry"/>
+    <listener class-name="com.naveenautomation.Reports.AllureReportListener"/>
+    <listener class-name="com.naveenautomation.Reports.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.naveenautomations.Tests.OrderHistoryTest">
+        <methods>
+          <include name="quitBrowserSession"/>
+          <include name="verifyOnOrderHistoryPage"/>
+          <include name="startBrowserSession"/>
+          <include name="loggerSetup"/>
+        </methods>
+      </class> <!-- com.naveenautomations.Tests.OrderHistoryTest -->
+      <class name="com.naveenautomations.Tests.ChangePasswordPageTest">
+        <methods>
+          <include name="verifyOnChangePasswordPage"/>
+          <include name="quitBrowserSession"/>
+          <include name="startBrowserSession"/>
+          <include name="loggerSetup"/>
+        </methods>
+      </class> <!-- com.naveenautomations.Tests.ChangePasswordPageTest -->
+      <class name="com.naveenautomations.Tests.OrderConfirmationPageTest">
+        <methods>
+          <include name="quitBrowserSession"/>
+          <include name="startBrowserSession"/>
+          <include name="OrderConfirmationTest"/>
+          <include name="loggerSetup"/>
+        </methods>
+      </class> <!-- com.naveenautomations.Tests.OrderConfirmationPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

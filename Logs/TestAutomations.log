@@ -1,0 +1,9 @@
+2022-08-21 22:48:25 INFO  TestBase:15 - Test execution has started .......addedToCartTest
+  2022-08-21 22:48:25 INFO  TestBase:33 - Test execution has skipped .......addedToCartTest
+  2022-08-21 22:48:26 INFO  TestBase:15 - Test execution has started .......OrderConfirmationTest
+  2022-08-21 22:48:26 INFO  TestBase:33 - Test execution has skipped .......OrderConfirmationTest
+  2022-08-21 22:48:27 INFO  TestBase:15 - Test execution has started .......testSomething
+  2022-08-21 22:48:27 INFO  TestBase:33 - Test execution has skipped .......testSomething
+  2022-08-21 22:48:27 INFO  TestBase:15 - Test execution has started .......verifyLogin
+  2022-08-21 22:48:27 INFO  TestBase:33 - Test execution has skipped .......verifyLogin
+  
