@@ -33,7 +33,7 @@ public class CameraPurchasePageTest extends TestBase {
 		myAccountPage = accountLogin.login("oo7@gmail.com", "PasswordReloaded");
 
 	}
-
+// test
 	@Test
 	@Severity(SeverityLevel.BLOCKER)
 

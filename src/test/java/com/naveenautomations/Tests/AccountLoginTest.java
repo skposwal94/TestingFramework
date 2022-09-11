@@ -34,6 +34,7 @@ public class AccountLoginTest extends TestBase {
 	public void verifyLogin() {
 		MyAccountPage myAccountage = accountLogin.login("oo7@gmail.com", "PasswordReloaded");
 		Assert.assertEquals(myAccountage.getTextFromMyAccount(), "My Account", "Not logged in");
+		//test
 	}
 
 	@AfterMethod
