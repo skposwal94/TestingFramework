@@ -41,7 +41,7 @@ public class OrderHistoryTest extends TestBase {
 		Assert.assertEquals(historyPage.OrderHistoryTitleText(), "OrderHistory", "Not on history web page");
 
 	}
-
+// quit method
 	@AfterMethod
 	public void quitBrowserSession() {
 		quitBrowser();
