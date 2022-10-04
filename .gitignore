@@ -36,3 +36,4 @@ FailedScreenShot/
 /target/
 test-output/
 .classpath
+/bin/
